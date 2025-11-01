@@ -38,7 +38,7 @@ player_tokens: Dict[str, dict] = {}
 
 # === HELPERS ===
 def new_empty_grid():
-    return [[{} for _ in range(5)] for _ in range(5)]
+    return [[{} for _ in range(7)] for _ in range(7)]
 
 def ensure_game_initialized(gid: str):
     if gid not in games:
